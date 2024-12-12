@@ -19,7 +19,7 @@ function App() {
   };
   const handleBackspace = () => {
     setResult((prev) => prev.slice(0, -1));
-  };
+  }; 
 
   return (
     <main>
